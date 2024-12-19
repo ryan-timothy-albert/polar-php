@@ -15,6 +15,10 @@ targets:
     polar:
         target: php
         source: Polar-OAS
+        publish:
+            packagist:
+                username: polar
+                token: $packagist_token
         codeSamples:
             registry:
                 location: registry.speakeasyapi.dev/polar/polar/polar-api-php-code-samples
