@@ -1,0 +1,14 @@
+# CustomFieldUpdateSelect
+
+Schema to update a custom field of type select.
+
+
+## Fields
+
+| Field                                                                                             | Type                                                                                              | Required                                                                                          | Description                                                                                       |
+| ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
+| `type`                                                                                            | [Components\CustomFieldUpdateSelectType](../../Models/Components/CustomFieldUpdateSelectType.md)  | :heavy_check_mark:                                                                                | N/A                                                                                               |
+| `metadata`                                                                                        | array<string, [string\|int\|bool](../../Models/Components/CustomFieldUpdateSelectMetadata.md)>    | :heavy_minus_sign:                                                                                | N/A                                                                                               |
+| `name`                                                                                            | *?string*                                                                                         | :heavy_minus_sign:                                                                                | N/A                                                                                               |
+| `slug`                                                                                            | *?string*                                                                                         | :heavy_minus_sign:                                                                                | N/A                                                                                               |
+| `properties`                                                                                      | [?Components\CustomFieldSelectProperties](../../Models/Components/CustomFieldSelectProperties.md) | :heavy_minus_sign:                                                                                | N/A                                                                                               |

@@ -1,0 +1,11 @@
+# ProductPriceOneTimeFreeCreate
+
+Schema to create a free one-time product price.
+
+
+## Fields
+
+| Field                                                                                                                    | Type                                                                                                                     | Required                                                                                                                 | Description                                                                                                              |
+| ------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------ |
+| `type`                                                                                                                   | [Components\ProductPriceOneTimeFreeCreateType](../../Models/Components/ProductPriceOneTimeFreeCreateType.md)             | :heavy_check_mark:                                                                                                       | N/A                                                                                                                      |
+| `amountType`                                                                                                             | [Components\ProductPriceOneTimeFreeCreateAmountType](../../Models/Components/ProductPriceOneTimeFreeCreateAmountType.md) | :heavy_check_mark:                                                                                                       | N/A                                                                                                                      |

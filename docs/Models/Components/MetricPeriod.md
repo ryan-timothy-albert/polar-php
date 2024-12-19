@@ -1,0 +1,19 @@
+# MetricPeriod
+
+
+## Fields
+
+| Field                                                         | Type                                                          | Required                                                      | Description                                                   |
+| ------------------------------------------------------------- | ------------------------------------------------------------- | ------------------------------------------------------------- | ------------------------------------------------------------- |
+| `timestamp`                                                   | [\DateTime](https://www.php.net/manual/en/class.datetime.php) | :heavy_check_mark:                                            | Timestamp of this period data.                                |
+| `orders`                                                      | *int*                                                         | :heavy_check_mark:                                            | N/A                                                           |
+| `revenue`                                                     | *int*                                                         | :heavy_check_mark:                                            | N/A                                                           |
+| `averageOrderValue`                                           | *int*                                                         | :heavy_check_mark:                                            | N/A                                                           |
+| `oneTimeProducts`                                             | *int*                                                         | :heavy_check_mark:                                            | N/A                                                           |
+| `oneTimeProductsRevenue`                                      | *int*                                                         | :heavy_check_mark:                                            | N/A                                                           |
+| `newSubscriptions`                                            | *int*                                                         | :heavy_check_mark:                                            | N/A                                                           |
+| `newSubscriptionsRevenue`                                     | *int*                                                         | :heavy_check_mark:                                            | N/A                                                           |
+| `renewedSubscriptions`                                        | *int*                                                         | :heavy_check_mark:                                            | N/A                                                           |
+| `renewedSubscriptionsRevenue`                                 | *int*                                                         | :heavy_check_mark:                                            | N/A                                                           |
+| `activeSubscriptions`                                         | *int*                                                         | :heavy_check_mark:                                            | N/A                                                           |
+| `monthlyRecurringRevenue`                                     | *int*                                                         | :heavy_check_mark:                                            | N/A                                                           |

@@ -1,0 +1,39 @@
+speakeasyVersion: 1.456.1
+sources:
+    Polar-OAS:
+        sourceNamespace: polar-oas
+        sourceRevisionDigest: sha256:71cc5048e3f64d23eb19b0103d900589c4d9585f808a92a880c4012ff95d3dd6
+        sourceBlobDigest: sha256:2fcb4a497110dfacf53652f840b4586fd532f15ddfa11dc8329db9987c54371a
+        tags:
+            - latest
+            - 0.1.0
+targets:
+    polar:
+        source: Polar-OAS
+        sourceNamespace: polar-oas
+        sourceRevisionDigest: sha256:71cc5048e3f64d23eb19b0103d900589c4d9585f808a92a880c4012ff95d3dd6
+        sourceBlobDigest: sha256:2fcb4a497110dfacf53652f840b4586fd532f15ddfa11dc8329db9987c54371a
+        codeSamplesNamespace: polar-api-php-code-samples
+        codeSamplesRevisionDigest: sha256:e078f90ed152a7bb272b46e228a95e9dba638ffe5b8f9aac98198a8c9bc23391
+workflow:
+    workflowVersion: 1.0.0
+    speakeasyVersion: latest
+    sources:
+        Polar-OAS:
+            inputs:
+                - location: https://api.polar.sh/openapi.json
+            overlays:
+                - location: https://raw.githubusercontent.com/polarsource/polar/main/sdk/overlays/security.yml
+                - location: https://raw.githubusercontent.com/polarsource/polar/main/sdk/overlays/type_parameter.yml
+                - location: https://raw.githubusercontent.com/polarsource/polar/main/sdk/overlays/product_price_discriminator.yml
+                - location: https://raw.githubusercontent.com/polarsource/polar/main/sdk/overlays/read_only.yml
+            registry:
+                location: registry.speakeasyapi.dev/polar/polar/polar-oas
+    targets:
+        polar:
+            target: php
+            source: Polar-OAS
+            codeSamples:
+                registry:
+                    location: registry.speakeasyapi.dev/polar/polar/polar-api-php-code-samples
+                blocking: false

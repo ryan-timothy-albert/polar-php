@@ -1,0 +1,14 @@
+# CustomFieldUpdateNumber
+
+Schema to update a custom field of type number.
+
+
+## Fields
+
+| Field                                                                                             | Type                                                                                              | Required                                                                                          | Description                                                                                       |
+| ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
+| `type`                                                                                            | [Components\CustomFieldUpdateNumberType](../../Models/Components/CustomFieldUpdateNumberType.md)  | :heavy_check_mark:                                                                                | N/A                                                                                               |
+| `metadata`                                                                                        | array<string, [string\|int\|bool](../../Models/Components/CustomFieldUpdateNumberMetadata.md)>    | :heavy_minus_sign:                                                                                | N/A                                                                                               |
+| `name`                                                                                            | *?string*                                                                                         | :heavy_minus_sign:                                                                                | N/A                                                                                               |
+| `slug`                                                                                            | *?string*                                                                                         | :heavy_minus_sign:                                                                                | N/A                                                                                               |
+| `properties`                                                                                      | [?Components\CustomFieldNumberProperties](../../Models/Components/CustomFieldNumberProperties.md) | :heavy_minus_sign:                                                                                | N/A                                                                                               |

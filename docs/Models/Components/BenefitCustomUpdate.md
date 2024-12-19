@@ -1,0 +1,10 @@
+# BenefitCustomUpdate
+
+
+## Fields
+
+| Field                                                                                     | Type                                                                                      | Required                                                                                  | Description                                                                               |
+| ----------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
+| `type`                                                                                    | [Components\BenefitCustomUpdateType](../../Models/Components/BenefitCustomUpdateType.md)  | :heavy_check_mark:                                                                        | N/A                                                                                       |
+| `description`                                                                             | *?string*                                                                                 | :heavy_minus_sign:                                                                        | The description of the benefit. Will be displayed on products having this benefit.        |
+| `properties`                                                                              | [?Components\BenefitCustomProperties](../../Models/Components/BenefitCustomProperties.md) | :heavy_minus_sign:                                                                        | N/A                                                                                       |

@@ -1,0 +1,14 @@
+# CustomFieldUpdateDate
+
+Schema to update a custom field of type date.
+
+
+## Fields
+
+| Field                                                                                         | Type                                                                                          | Required                                                                                      | Description                                                                                   |
+| --------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| `type`                                                                                        | [Components\CustomFieldUpdateDateType](../../Models/Components/CustomFieldUpdateDateType.md)  | :heavy_check_mark:                                                                            | N/A                                                                                           |
+| `metadata`                                                                                    | array<string, [string\|int\|bool](../../Models/Components/CustomFieldUpdateDateMetadata.md)>  | :heavy_minus_sign:                                                                            | N/A                                                                                           |
+| `name`                                                                                        | *?string*                                                                                     | :heavy_minus_sign:                                                                            | N/A                                                                                           |
+| `slug`                                                                                        | *?string*                                                                                     | :heavy_minus_sign:                                                                            | N/A                                                                                           |
+| `properties`                                                                                  | [?Components\CustomFieldDateProperties](../../Models/Components/CustomFieldDateProperties.md) | :heavy_minus_sign:                                                                            | N/A                                                                                           |
