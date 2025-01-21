@@ -27,7 +27,7 @@ php:
       webhooks: Models/Webhooks
   inputModelSuffix: input
   laravelServiceProvider:
-    enabled: true
+    enabled: false
     svcName: openapi
   maxMethodParams: 4
   methodArguments: infer-optional-args
