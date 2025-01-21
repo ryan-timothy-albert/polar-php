@@ -14,11 +14,6 @@ generation:
     oAuth2PasswordEnabled: true
 php:
   version: 0.0.2
-  additionalDependencies:
-    autoload: {}
-    autoload-dev: {}
-    require: {}
-    require-dev: {}
   clientServerStatusCodesAsErrors: true
   defaultErrorName: APIException
   flattenGlobalSecurity: true
