@@ -9,8 +9,6 @@ sources:
             - location: https://raw.githubusercontent.com/polarsource/polar/main/sdk/overlays/type_parameter.yml
             - location: https://raw.githubusercontent.com/polarsource/polar/main/sdk/overlays/product_price_discriminator.yml
             - location: https://raw.githubusercontent.com/polarsource/polar/main/sdk/overlays/read_only.yml
-        registry:
-            location: registry.speakeasyapi.dev/polar/polar/polar-oas
 targets:
     polar:
         target: php
@@ -22,6 +20,4 @@ targets:
         codeSamples:
             labelOverride:
                 fixedValue: PHP (SDK)
-            registry:
-                location: registry.speakeasyapi.dev/polar/polar/polar-api-php-code-samples
             blocking: false
