@@ -18,7 +18,7 @@ php:
     autoload: {}
     autoload-dev: {}
     require: {
-      "php": "~8.2.27"
+      "php": "~8.2.1"
     }
     require-dev: {}
   clientServerStatusCodesAsErrors: true
